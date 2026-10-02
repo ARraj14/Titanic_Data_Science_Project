@@ -1,0 +1,180 @@
+Pclass,Age,SibSp,Parch,Fare_capped,Cabin_known,FamilySize,IsAlone,Sex,Embarked,PassengerId,Actual_Survived,Predicted_Survived,Survival_Probability,Prediction_Type,AgeGroup
+3,24.0,2,0,24.15,0,3,0,male,S,566,0,0,0.1801414723387117,True Negative,Young Adult
+3,44.0,0,1,16.1,0,2,0,male,S,161,0,0,0.20808582664104752,True Negative,Adult
+3,22.0,0,0,7.225,0,1,1,male,C,554,1,0,0.19140552678427608,False Negative,Young Adult
+3,41.0,2,0,14.1083,0,3,0,male,S,861,0,0,0.14315687039280334,True Negative,Adult
+3,21.5,1,0,15.5,0,2,0,female,Q,242,1,1,0.6688590357841387,True Positive,Young Adult
+3,36.0,1,0,17.4,0,2,0,female,S,560,1,1,0.5037566507488844,True Positive,Adult
+2,36.0,0,0,13.0,0,1,1,female,S,388,1,1,0.9177034120742599,True Positive,Adult
+1,45.0,0,0,26.55,1,1,1,male,S,537,0,1,0.5718551765869353,False Positive,Adult
+1,49.0,1,1,65.6563,1,3,0,male,C,699,0,1,0.6215761297892294,False Positive,Adult
+2,34.0,1,0,26.0,0,2,0,male,S,100,0,0,0.17899010096023393,True Negative,Young Adult
+3,26.0,0,0,7.75,0,1,1,male,Q,127,0,0,0.1999789485935696,True Negative,Young Adult
+3,16.0,2,0,18.0,0,3,0,male,S,334,0,0,0.2434357277940057,True Negative,Teen
+3,27.0,0,0,7.925,0,1,1,female,S,217,1,1,0.5751344027748335,True Positive,Young Adult
+2,31.0,1,1,37.0042,0,3,0,male,C,818,0,0,0.3636200782166456,True Negative,Young Adult
+1,19.0,3,2,65.6563,1,6,0,male,S,28,0,1,0.5446369258180888,False Positive,Young Adult
+3,25.0,0,0,7.7417,0,1,1,male,Q,704,0,0,0.1600965095759015,True Negative,Young Adult
+3,21.5,3,1,25.4667,0,5,0,female,S,486,0,0,0.2748859592105214,True Negative,Young Adult
+3,26.0,0,0,8.05,0,1,1,male,S,512,0,0,0.08899431936871634,True Negative,Young Adult
+3,17.0,0,0,7.125,0,1,1,male,S,434,0,0,0.14867247803066605,True Negative,Teen
+2,34.0,0,0,13.0,0,1,1,female,S,577,1,1,0.9285112361945838,True Positive,Young Adult
+3,26.0,0,0,8.05,0,1,1,male,S,88,0,0,0.08899431936871634,True Negative,Young Adult
+2,25.0,1,1,30.0,0,3,0,female,S,581,1,1,0.9235619232889017,True Positive,Young Adult
+3,30.0,0,0,8.05,0,1,1,male,S,158,0,0,0.2704461211830709,True Negative,Young Adult
+3,35.0,1,1,20.25,0,3,0,female,S,280,1,1,0.564974912550899,True Positive,Young Adult
+3,29.0,0,0,7.875,0,1,1,male,S,423,0,0,0.1732854934616312,True Negative,Young Adult
+1,24.0,0,0,65.6563,1,1,1,female,C,370,1,1,0.9791887186543071,True Positive,Young Adult
+3,26.0,0,0,7.75,1,1,1,male,Q,777,0,0,0.36130115435897914,True Negative,Young Adult
+1,48.0,1,0,52.0,1,2,0,male,S,713,1,1,0.5520351154971307,True Positive,Adult
+3,29.0,0,0,7.8958,0,1,1,male,C,456,1,0,0.18570414665806856,False Negative,Young Adult
+3,26.0,0,0,14.4583,0,1,1,male,C,496,0,0,0.27294344128933795,True Negative,Young Adult
+3,34.0,0,0,8.05,0,1,1,male,S,759,0,0,0.21057032307894893,True Negative,Young Adult
+1,29.0,0,0,65.6563,1,1,1,female,S,731,1,1,0.9842342639750189,True Positive,Young Adult
+3,26.0,1,1,15.2458,0,3,0,male,C,66,1,0,0.4145208374808406,False Negative,Young Adult
+3,25.0,0,0,7.65,1,1,1,male,S,76,0,0,0.30071857987874134,True Negative,Young Adult
+3,9.0,1,1,15.9,0,3,0,male,S,490,1,0,0.39503962330471554,False Negative,Child
+3,4.0,1,1,11.1333,0,3,0,male,S,870,1,1,0.528517262634209,True Positive,Child
+3,9.0,0,2,20.525,0,3,0,male,S,166,1,0,0.35806098878392023,False Negative,Child
+3,16.0,5,2,46.9,0,8,0,female,S,72,0,0,0.2941202980825832,True Negative,Teen
+3,26.0,0,0,7.75,0,1,1,male,Q,429,0,0,0.1999789485935696,True Negative,Young Adult
+2,18.0,0,2,13.0,0,3,0,female,S,418,1,1,0.8923456839341806,True Positive,Teen
+1,70.0,1,1,65.6563,1,3,0,male,S,746,0,1,0.517628835316412,False Positive,Senior
+1,2.0,1,2,65.6563,1,4,0,female,S,298,0,1,0.9180547507453228,False Positive,Child
+2,48.0,0,0,13.0,0,1,1,male,S,464,0,0,0.13308398238420135,True Negative,Adult
+2,17.0,0,0,10.5,0,1,1,female,S,85,1,1,0.8618414124231891,True Positive,Teen
+2,35.0,0,0,21.0,0,1,1,female,S,212,1,1,0.9302035552595705,True Positive,Young Adult
+3,21.0,0,0,7.925,0,1,1,male,S,116,0,0,0.15526902407642032,True Negative,Young Adult
+3,26.0,0,0,9.5,0,1,1,male,S,869,0,0,0.12861413888895096,True Negative,Young Adult
+3,40.0,1,0,9.475,0,2,0,female,S,41,0,0,0.44321071017234437,True Negative,Adult
+3,0.75,2,1,19.2583,0,4,0,female,C,645,1,1,0.8043391543861063,True Positive,Child
+2,30.0,0,0,12.35,0,1,1,female,Q,323,1,1,0.9051476000911357,True Positive,Young Adult
+1,33.0,0,0,65.6563,1,1,1,female,S,760,1,1,0.9885381698322336,True Positive,Young Adult
+3,21.5,0,0,8.05,0,1,1,female,S,565,0,1,0.5164464520122987,False Positive,Young Adult
+3,21.5,0,0,7.6292,0,1,1,female,Q,503,0,1,0.8628820031240261,False Positive,Young Adult
+2,30.0,0,0,13.0,0,1,1,male,S,18,1,0,0.11740375227162071,False Negative,Young Adult
+1,36.0,0,1,65.6563,1,2,0,male,C,680,1,1,0.5288679493325077,True Positive,Adult
+3,26.0,0,0,8.05,0,1,1,male,S,402,0,0,0.08899431936871634,True Negative,Young Adult
+3,26.0,1,0,16.1,0,2,0,male,S,640,0,0,0.16649436887024513,True Negative,Young Adult
+1,35.0,0,0,26.2875,1,1,1,male,S,702,1,1,0.6657500832846733,True Positive,Young Adult
+3,21.0,0,0,7.65,0,1,1,female,S,107,1,1,0.6529704389403307,True Positive,Young Adult
+1,34.0,0,0,26.55,0,1,1,male,S,448,1,0,0.41948388364274874,False Negative,Young Adult
+3,21.5,1,0,14.4583,0,2,0,female,C,579,0,1,0.5678061038470914,False Positive,Young Adult
+2,33.0,1,2,27.75,0,4,0,female,S,473,1,1,0.9333484696960054,True Positive,Young Adult
+3,16.0,0,0,7.775,0,1,1,male,S,765,0,0,0.24893455065849282,True Negative,Teen
+2,46.0,0,0,26.0,0,1,1,male,S,398,0,0,0.14542904527992973,True Negative,Adult
+1,31.0,1,0,57.0,1,2,0,male,S,691,1,1,0.6243234615176396,True Positive,Young Adult
+3,18.0,2,0,18.0,0,3,0,female,S,39,0,1,0.5757054096601355,False Positive,Teen
+1,35.0,1,0,65.6563,0,2,0,female,C,376,1,1,0.9696851087441122,True Positive,Young Adult
+3,33.0,0,0,9.5,0,1,1,male,S,753,0,0,0.24149923213634372,True Negative,Young Adult
+1,61.0,0,0,32.3208,1,1,1,male,S,626,0,0,0.37440934921794716,True Negative,Senior
+2,24.0,0,0,13.0,0,1,1,male,S,865,0,0,0.0767301235000166,True Negative,Young Adult
+1,63.0,1,0,65.6563,1,2,0,female,S,276,1,1,0.9469476080644239,True Positive,Senior
+3,26.0,0,0,7.225,0,1,1,male,C,774,0,0,0.16822234455587515,True Negative,Young Adult
+3,21.5,0,2,7.75,0,3,0,female,Q,594,0,1,0.7426662347415949,False Positive,Young Adult
+1,16.0,0,0,65.6563,1,1,1,female,S,505,1,1,0.9735110394999756,True Positive,Teen
+2,33.0,0,0,12.275,0,1,1,male,S,240,0,0,0.1496577704704584,True Negative,Young Adult
+3,40.5,0,2,14.5,0,3,0,male,S,154,0,0,0.2048913692600433,True Negative,Adult
+3,35.0,0,0,8.05,0,1,1,male,S,615,0,0,0.20614684987915993,True Negative,Young Adult
+3,25.0,1,0,7.775,0,2,0,male,S,443,0,0,0.2525963887179818,True Negative,Young Adult
+3,21.5,8,2,65.6563,0,11,0,female,S,181,0,0,0.3159569662664397,True Negative,Young Adult
+3,9.0,3,2,27.9,0,6,0,female,S,635,0,0,0.2527578067484273,True Negative,Child
+3,1.0,5,2,46.9,0,8,0,male,S,387,0,0,0.4091189294519691,True Negative,Child
+3,30.0,0,0,7.225,0,1,1,male,C,245,0,0,0.15102756945866902,True Negative,Young Adult
+3,31.0,0,0,7.75,0,1,1,male,Q,750,0,0,0.20842218371324583,True Negative,Young Adult
+3,26.0,0,0,7.775,0,1,1,male,S,163,0,0,0.1725112979492708,True Negative,Young Adult
+3,21.0,0,0,7.75,0,1,1,female,Q,502,0,1,0.85676068263556,False Positive,Young Adult
+1,46.0,1,0,61.175,1,2,0,male,S,93,0,1,0.5734909382254435,False Positive,Adult
+2,52.0,0,0,13.0,0,1,1,male,S,715,0,0,0.12304266862549632,True Negative,Adult
+3,21.5,1,0,16.1,0,2,0,female,S,432,1,1,0.54116571256678,True Positive,Young Adult
+1,30.0,0,0,27.75,1,1,1,male,C,453,0,1,0.6635736417425139,False Positive,Young Adult
+1,16.0,0,1,39.4,1,2,0,female,S,854,1,1,0.9645606473515314,True Positive,Teen
+1,40.0,0,0,35.5,1,1,1,male,S,56,1,0,0.36178663305849645,False Negative,Adult
+1,40.0,0,0,35.0,1,1,1,male,S,352,0,0,0.36178663305849645,True Negative,Adult
+2,62.0,0,0,10.5,0,1,1,male,S,571,1,0,0.09501863983989826,False Negative,Senior
+3,26.0,0,0,7.8958,0,1,1,male,S,30,0,0,0.06237970024083343,True Negative,Young Adult
+1,45.0,1,0,65.6563,1,2,0,male,S,63,0,1,0.5629263251102304,False Positive,Adult
+2,29.0,0,0,33.0,0,1,1,female,S,597,1,1,0.9468992995092234,True Positive,Young Adult
+2,50.0,0,0,10.5,0,1,1,female,S,459,1,1,0.847215021210327,True Positive,Adult
+3,26.0,0,0,7.75,0,1,1,male,Q,460,0,0,0.1999789485935696,True Negative,Young Adult
+3,35.0,0,0,8.05,0,1,1,male,S,5,0,0,0.20614684987915993,True Negative,Young Adult
+3,25.0,0,0,0.0,0,1,1,male,S,272,1,0,0.08556006999663278,False Negative,Young Adult
+1,62.0,0,0,26.55,1,1,1,male,S,253,0,1,0.5282703719417526,False Positive,Senior
+1,24.0,3,2,65.6563,1,6,0,female,S,342,1,1,0.7566337688985462,True Positive,Young Adult
+3,21.5,0,0,7.7875,0,1,1,female,Q,83,1,1,0.8583671287696073,True Positive,Young Adult
+2,14.0,1,0,30.0708,0,2,0,female,C,10,1,1,0.9141751021017864,True Positive,Teen
+3,26.0,0,0,7.8875,0,1,1,male,S,811,0,0,0.06237970024083343,True Negative,Young Adult
+1,28.0,0,0,35.5,1,1,1,male,S,24,1,0,0.44418807396280735,False Negative,Young Adult
+2,16.0,0,0,10.5,0,1,1,male,S,842,0,0,0.20189063313752445,True Negative,Teen
+3,26.0,0,0,7.8958,0,1,1,male,S,411,0,0,0.06237970024083343,True Negative,Young Adult
+3,19.0,0,0,7.8958,0,1,1,male,S,567,0,0,0.14910105648923191,True Negative,Young Adult
+1,44.0,2,0,65.6563,1,3,0,male,Q,246,0,1,0.6092808705047617,False Positive,Adult
+3,26.0,0,0,7.75,0,1,1,male,Q,561,0,0,0.1999789485935696,True Negative,Young Adult
+3,26.0,8,2,65.6563,0,11,0,male,S,325,0,0,0.14306131990128057,True Negative,Young Adult
+3,27.0,0,0,7.7958,0,1,1,male,S,147,1,0,0.17383905387158827,False Negative,Young Adult
+1,58.0,0,2,65.6563,1,3,0,male,C,660,0,1,0.5134536570108568,False Positive,Adult
+1,53.0,2,0,51.4792,1,3,0,female,S,572,1,1,0.9366652694521705,True Positive,Adult
+3,26.0,0,0,7.75,0,1,1,male,Q,197,0,0,0.1999789485935696,True Negative,Young Adult
+3,2.0,4,1,29.125,0,6,0,male,Q,17,0,0,0.396770931639162,True Negative,Child
+3,16.0,0,0,9.2167,0,1,1,male,S,139,0,0,0.2428277164624588,True Negative,Teen
+3,24.0,1,0,16.1,0,2,0,male,S,744,0,0,0.20507415942343019,True Negative,Young Adult
+1,62.0,0,0,26.55,0,1,1,male,S,556,0,0,0.32199736751066466,True Negative,Senior
+3,28.0,0,0,7.8958,0,1,1,male,S,106,0,0,0.0974415211090292,True Negative,Young Adult
+2,30.0,3,0,21.0,0,4,0,female,S,727,1,1,0.791337280732433,True Positive,Young Adult
+3,44.0,0,0,8.05,0,1,1,male,S,604,0,0,0.2693646061117899,True Negative,Adult
+3,9.0,4,2,31.275,0,7,0,female,S,542,0,0,0.28175818962148824,True Negative,Child
+3,18.0,0,0,7.75,0,1,1,male,S,776,0,0,0.2066047880584777,True Negative,Teen
+3,2.0,4,1,39.6875,0,6,0,male,S,825,0,0,0.3879448327580823,True Negative,Child
+1,29.0,1,0,65.6563,1,2,0,male,S,337,0,1,0.5851695306746607,False Positive,Young Adult
+3,30.0,1,1,24.15,0,3,0,female,S,800,0,1,0.5747939365405048,False Positive,Young Adult
+3,24.5,0,0,8.05,0,1,1,male,S,677,0,0,0.08698723571344724,True Negative,Young Adult
+1,27.0,0,0,30.5,0,1,1,male,S,608,1,0,0.36228986514727946,False Negative,Young Adult
+3,26.0,0,0,56.4958,0,1,1,male,S,827,0,1,0.5768101247315723,False Positive,Young Adult
+3,28.0,0,0,7.7958,0,1,1,male,S,757,0,0,0.16101610329833954,True Negative,Young Adult
+3,21.5,1,0,15.5,0,2,0,female,Q,187,1,1,0.6688590357841387,True Positive,Young Adult
+3,26.0,0,0,6.8583,0,1,1,male,Q,412,0,0,0.1258871120484807,True Negative,Young Adult
+2,8.0,1,1,36.75,0,3,0,male,S,550,1,0,0.41736315345051844,False Negative,Child
+3,20.0,0,0,9.5,0,1,1,male,S,442,0,0,0.12761779709151383,True Negative,Young Adult
+1,14.0,1,2,65.6563,1,4,0,female,S,436,1,1,0.9152878856659575,True Positive,Teen
+3,26.0,0,0,7.75,0,1,1,male,Q,791,0,0,0.1999789485935696,True Negative,Young Adult
+3,21.5,0,0,7.75,0,1,1,female,Q,199,1,1,0.8650299056828723,True Positive,Young Adult
+3,26.0,0,0,8.1125,0,1,1,male,S,445,1,0,0.08354607057371628,False Negative,Young Adult
+1,31.0,1,0,52.0,1,2,0,male,S,672,0,1,0.5938433330512051,False Positive,Young Adult
+3,23.5,0,0,7.2292,0,1,1,male,C,297,0,0,0.2120357783959268,True Negative,Young Adult
+1,11.0,1,2,65.6563,1,4,0,male,S,803,1,1,0.6642197868124887,True Positive,Child
+1,37.0,1,0,53.1,1,2,0,male,S,138,0,1,0.6187953992859687,False Positive,Adult
+3,17.0,1,1,7.2292,0,3,0,male,C,533,0,0,0.41527032063305724,True Negative,Teen
+1,60.0,1,1,65.6563,1,3,0,male,C,588,1,1,0.5604430387056519,True Positive,Adult
+3,26.0,0,0,7.8958,0,1,1,male,S,879,0,0,0.06237970024083343,True Negative,Young Adult
+2,25.0,1,0,26.0,0,2,0,male,S,729,0,0,0.20297204544626332,True Negative,Young Adult
+2,17.0,0,0,12.0,0,1,1,female,C,390,1,1,0.8628502249136522,True Positive,Teen
+2,19.0,0,0,26.0,0,1,1,female,S,428,1,1,0.9201948180869809,True Positive,Young Adult
+3,27.0,0,0,6.975,0,1,1,male,S,805,1,0,0.08501054028167328,False Negative,Young Adult
+3,11.0,0,0,18.7875,0,1,1,male,C,732,0,0,0.4142328167298986,True Negative,Child
+1,23.0,3,2,65.6563,1,6,0,female,S,89,1,1,0.7582994143233828,True Positive,Young Adult
+3,14.0,1,0,11.2417,0,2,0,female,C,40,1,1,0.6338009129604003,True Positive,Teen
+1,55.0,0,0,30.5,1,1,1,male,S,493,0,1,0.5243292904763485,False Positive,Adult
+3,27.0,0,1,12.475,1,2,0,female,S,824,1,1,0.7171594324242456,True Positive,Young Adult
+2,27.0,0,0,13.0,0,1,1,male,S,887,0,0,0.08285582724030435,True Negative,Young Adult
+3,25.0,1,0,17.8,0,2,0,male,S,354,0,0,0.2027254982898238,True Negative,Young Adult
+2,25.0,1,2,41.5792,0,4,0,male,C,686,0,0,0.36377897081358745,True Negative,Young Adult
+1,58.0,0,0,26.55,1,1,1,female,S,12,1,1,0.902001114439187,True Positive,Adult
+1,25.0,1,0,65.6563,1,2,0,male,C,485,1,1,0.6430922069520624,True Positive,Young Adult
+1,60.0,1,0,65.6563,1,2,0,female,C,367,1,1,0.9565943401636073,True Positive,Adult
+3,21.5,0,0,7.75,0,1,1,female,Q,301,1,1,0.8650299056828723,True Positive,Young Adult
+1,56.0,0,1,65.6563,1,2,0,female,C,880,1,1,0.9537666489556219,True Positive,Adult
+2,2.0,1,1,26.0,0,3,0,female,S,531,1,1,0.9157347584248129,True Positive,Child
+3,24.0,0,0,8.85,0,1,1,female,S,294,0,1,0.5613216638999767,False Positive,Young Adult
+3,30.5,0,0,8.05,0,1,1,male,S,815,0,0,0.33018827900403397,True Negative,Young Adult
+1,47.0,0,0,34.0208,1,1,1,male,S,516,0,0,0.350989097960257,True Negative,Adult
+2,24.0,0,0,13.0,0,1,1,female,S,200,0,1,0.9114401640318214,False Positive,Young Adult
+3,24.0,1,0,15.85,0,2,0,female,S,143,1,1,0.5375024143551367,True Positive,Young Adult
+3,42.0,0,0,8.6625,0,1,1,male,S,350,0,0,0.2633424402084067,True Negative,Adult
+3,26.0,0,0,7.225,0,1,1,male,C,355,0,0,0.16822234455587515,True Negative,Young Adult
+1,40.0,0,0,27.7208,0,1,1,male,C,296,0,0,0.31409601926609,True Negative,Adult
+3,19.0,0,0,6.75,0,1,1,male,Q,144,0,0,0.17996607238551604,True Negative,Young Adult
+2,25.0,0,1,26.0,0,2,0,female,S,881,1,1,0.9323827690898949,True Positive,Young Adult
+3,20.0,0,0,7.8542,0,1,1,male,S,92,0,0,0.1234710829152079,True Negative,Young Adult
+2,28.0,0,0,10.5,0,1,1,male,S,884,0,0,0.0960486705533469,True Negative,Young Adult
+2,23.0,0,0,13.7917,1,1,1,female,C,474,1,1,0.9111303417350654,True Positive,Young Adult
+2,31.0,1,1,26.25,0,3,0,male,S,638,0,0,0.26592314266461037,True Negative,Young Adult

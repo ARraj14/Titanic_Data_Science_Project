@@ -1,0 +1,15 @@
+{
+    "selected_model": "Random Forest",
+    "cv_roc_auc": 0.8831826757649642,
+    "test_accuracy": 0.770949720670391,
+    "test_balanced_accuracy": 0.7704216073781291,
+    "test_precision": 0.6794871794871795,
+    "test_recall": 0.7681159420289855,
+    "test_f1": 0.7210884353741497,
+    "test_roc_auc": 0.8365612648221343,
+    "test_average_precision": 0.8197669230472407,
+    "true_negatives": 85,
+    "false_positives": 25,
+    "false_negatives": 16,
+    "true_positives": 53
+}

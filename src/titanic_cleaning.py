@@ -6,18 +6,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-from sklearn.compose import ColumnTransformer
-from sklearn.pipeline import Pipeline
-from sklearn.preprocessing import OneHotEncoder, StandardScaler
-from sklearn.impute import SimpleImputer
-from sklearn.model_selection import train_test_split
-from sklearn.linear_model import LogisticRegression
-from sklearn.metrics import (
-    accuracy_score,
-    classification_report,
-    confusion_matrix,
-)
-
 # Project paths
 
 DATA_PATH = Path("data/train.csv")
@@ -292,9 +280,18 @@ plt.savefig(FIGURES_DIR / "age_distribution.png", dpi=300, bbox_inches="tight")
 plt.show()
 plt.close()
 
-# Prepare data for machine learning
+# Final validation
 
-features = [
+print("\nFinal dataset validation:")
+
+print("\nOriginal dataset shape:")
+print(df.shape)
+
+print("\nCleaned dataset shape:")
+print(cleaned_df.shape)
+
+
+cleaned_features = [
     "Pclass",
     "Age",
     "SibSp",
@@ -307,141 +304,25 @@ features = [
     "Embarked",
 ]
 
-X = cleaned_df[features]
-y = cleaned_df["Survived"]
-
 
 print("\nMissing values in cleaned features:")
-print(X.isnull().sum())
+print(cleaned_df[cleaned_features].isnull().sum())
 
-print("\nMissing values in target:")
-print(y.isnull().sum())
-
-# Train/test split
-
-X_train, X_test, y_train, y_test = train_test_split(
-    X, y, test_size=0.2, random_state=42, stratify=y
-)
-
-print("\nTraining data shape:")
-print(X_train.shape)
-
-print("\nTesting data shape:")
-print(X_test.shape)
-
-print("\nTraining target shape:")
-print(y_train.shape)
-
-print("\nTesting target shape:")
-print(y_test.shape)
-
-# Preprocessing pipeline
-
-numerical_features = [
-    "Pclass",
-    "Age",
-    "SibSp",
-    "Parch",
-    "Fare_capped",
-    "Cabin_known",
-    "FamilySize",
-    "IsAlone",
-]
-
-categorical_features = ["Sex", "Embarked"]
-
-numerical_pipeline = Pipeline(
-    steps=[("imputer", SimpleImputer(strategy="median")), ("scaler", StandardScaler())]
-)
-
-categorical_pipeline = Pipeline(
-    steps=[
-        ("imputer", SimpleImputer(strategy="most_frequent")),
-        ("encoder", OneHotEncoder(handle_unknown="ignore", drop="first")),
-    ]
-)
-
-preprocessor = ColumnTransformer(
-    transformers=[
-        ("num", numerical_pipeline, numerical_features),
-        ("cat", categorical_pipeline, categorical_features),
-    ]
-)
-
-model = Pipeline(
-    steps=[
-        ("preprocessor", preprocessor),
-        ("classifier", LogisticRegression(max_iter=1000)),
-    ]
-)
-
-# Model training and evaluation
-
-model.fit(X_train, y_train)
-
-y_pred = model.predict(X_test)
-
-
-accuracy = accuracy_score(y_test, y_pred)
-
-print("\nModel accuracy:")
-print(f"{accuracy:.4f}")
-
-
-print("\nClassification Report:")
-print(classification_report(y_test, y_pred))
-
-
-cm = confusion_matrix(y_test, y_pred)
-
-print("\nConfusion Matrix:")
-print(cm)
-
-
-# Confusion matrix visualization
-
-plt.figure(figsize=(6, 5))
-
-sns.heatmap(
-    cm,
-    annot=True,
-    fmt="d",
-    xticklabels=["Did not survive", "Survived"],
-    yticklabels=["Did not survive", "Survived"],
-)
-
-plt.title("Confusion Matrix")
-plt.xlabel("Predicted")
-plt.ylabel("Actual")
-plt.tight_layout()
-
-plt.savefig(FIGURES_DIR / "confusion_matrix.png", dpi=300, bbox_inches="tight")
-
-plt.show()
-plt.close()
-
-# Final validation
-
-print("\nFinal dataset validation:")
-
-print("Original dataset shape:")
-print(df.shape)
-
-print("\nCleaned dataset shape:")
-print(cleaned_df.shape)
-
-print("\nMissing values in cleaned features:")
-print(cleaned_df[features].isnull().sum())
 
 print("\nDuplicate rows in cleaned dataset:")
 print(cleaned_df.duplicated().sum())
 
-print("\nFinal feature columns:")
-print(features)
+
+print("\nFinal cleaned feature columns:")
+print(cleaned_features)
+
 
 # Save cleaned dataset
 
-cleaned_df.to_csv(OUTPUT_DIR / "titanic_cleaned.csv", index=False)
+cleaned_df.to_csv(
+    OUTPUT_DIR / "titanic_cleaned.csv",
+    index=False,
+)
 
 print("\nCleaned dataset saved successfully.")
 print("File: outputs/titanic_cleaned.csv")
